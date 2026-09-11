@@ -9,7 +9,7 @@ export default function FormationsPage() {
           <span className="label">Nos formations</span>
           <h1>Des parcours pensés pour votre équilibre et votre avenir</h1>
           <p>
-            Des programmes professionnels et inspirants pour accompagner les
+            Des programmes professionnels avec des professionelles  et inspirants pour accompagner les
             femmes dans leur développement personnel, leur pratique bien-être et
             leur activité professionnelle.
           </p>

@@ -46,9 +46,9 @@ export const formations: Formation[] = [
       summary: "L'ostéopathie aide à soulager les douleurs, améliorer la mobilité et favoriser un meilleur fonctionnement du corps au quotidien.",
       goals: [
           "Anatomie fonctionnelle du bassin féminin",
-          "Repérer les zones de tension et de restriction",
-          "Développer des gestes doux et efficaces",
-          "Créer une approche personnalisée et globale",
+          "Repérer les zones de tension et de restriction ",
+          "Développer des gestes doux et efficaces sur des zones spécifiques",
+          "Créer une approche personnalisée et globale pour chaque cas ",
       ],
       format: [
           "Approche manuelle structurée",
