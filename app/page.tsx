@@ -95,22 +95,25 @@ export default function Home() {
           <div className="cards-grid">
             {[
               {
-                img: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=70",
-                name: "Réflexologie",
-                meta: "3 jours · 790 DT",
-                desc: "Une technique manuelle ciblée pour rétablir l'équilibre énergétique du corps.",
+                img: "/jus-vert.jpg",
+                name: "Nutrition & Détox",
+                meta: "3 jours · 990 DT",
+                desc: "Une approche globale pour rééquilibrer son alimentation et retrouver un bien-être durable.",
+                href: "/formations/nutrition",
               },
               {
-                img: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=70",
-                name: "Kinésiologie",
-                meta: "4 jours · 990 DT",
-                desc: "Une lecture du corps et des émotions au service d'un mieux-être durable.",
-              },
-              {
-                img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=70",
-                name: "Ostéopathie",
-                meta: "5 jours · 990 DT",
+                img: "/ostéopathie-image.jpg",
+                name: "Ostéopathie : femme enceinte",
+                meta: "3 jours · 990 DT",
                 desc: "Une approche manuelle globale pour soulager durablement les tensions du corps.",
+                href: "/formations/osteopathie",
+              },
+              {
+                img: "/hijama.png",
+                name: "Hijama",
+                meta: "3 jours · 990 DT",
+                desc: "Un soin ancestral purifiant pour relancer la circulation et rééquilibrer le corps.",
+                href: "/formations/hijama",
               },
             ].map((f) => (
               <div className="card reveal" key={f.name}>
@@ -122,7 +125,7 @@ export default function Home() {
                   <h4>{f.name}</h4>
                   <div className="card-meta">{f.meta}</div>
                   <p className="card-desc">{f.desc}</p>
-                  <a href="#" className="card-link">
+                  <a href={f.href} className="card-link">
                     En savoir plus
                   </a>
                 </div>
@@ -130,7 +133,7 @@ export default function Home() {
             ))}
           </div>
           <div className="center-cta reveal">
-            <a href="#" className="btn-outline">
+            <a href="/formations/" className="btn-outline">
               Voir le catalogue complet
             </a>
           </div>
