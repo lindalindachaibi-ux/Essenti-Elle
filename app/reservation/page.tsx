@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { formations } from "../formations/data";
 
-export default function ReservationPage() {
+function ReservationForm() {
   const searchParams = useSearchParams();
   const selectedFormationFromUrl = searchParams.get("formation");
 
@@ -218,5 +218,24 @@ export default function ReservationPage() {
         </div>
       </section>
     </main>
+  );
+}
+
+export default function ReservationPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="reservation-page">
+          <section className="reservation-hero">
+            <div className="wrap reservation-header">
+              <span className="label">Réservation</span>
+              <h1>Chargement...</h1>
+            </div>
+          </section>
+        </main>
+      }
+    >
+      <ReservationForm />
+    </Suspense>
   );
 }

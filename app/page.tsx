@@ -25,29 +25,28 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          className="hero-leaf"
-          src="/citation.jpeg"
-          alt=""
-        />
-        <div className="wrap">
+        <div className="wrap hero-layout">
           <div className="hero-inner">
-            <span className="label eyebrow reveal">
+            <span className="label eyebrow">
               Centre de formation professionnelle international
             </span>
-            <h1 className="reveal">
+            <h1>
               Une approche globale{" "}
               <span>pour soulager, rééquilibrer et prévenir durablement</span>
             </h1>
-            <p className="hero-copy reveal">
+            <p className="hero-copy">
               Des formations pensées pour les femmes, entre expertise thérapeutique
               et bien-être — réflexologie, kinésiologie, massages, ostéopathie,
               hijama, nutrition.
             </p>
-            <a href="#formations" className="btn-primary reveal">
+            <a href="#formations" className="btn-primary">
               Découvrir les formations
             </a>
+          </div>
+
+          <div className="hero-visual">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/citation.jpeg" alt="Essenti'Elle" />
           </div>
         </div>
       </section>
