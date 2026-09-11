@@ -108,7 +108,7 @@ export const formations: Formation[] = [
       label: "Restauration de l'équilibre",
       duration: "3 jours",
       price: "790 DT",
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&q=70",
+      image: "/reflexologie.jpg",
       description: "Une technique manuelle ciblée pour rétablir l'équilibre énergétique du corps et favoriser le bien-être global.",
       summary: "La réflexologie agit sur les zones réflexes du pied pour soulager les tensions, le stress et les déséquilibres corporels.",
       goals: [
@@ -130,7 +130,7 @@ export const formations: Formation[] = [
       label: "Confiance · Équilibre · Développement personnel",
       duration: "3 jours",
       price: "550 DT",
-      image: "/changement  de perspective.jpg",
+      image: "/Formation-changement-perspective.jpeg",
       description: "Une formation phare pour renforcer la confiance en soi, développer la présence et poser des bases solides pour une pratique professionnelle épanouissante.",
       summary: "Ce programme accompagne les participantes vers une meilleure connaissance d'elles-mêmes, une gestion émotionnelle plus sereine et une meilleure confiance dans leur évolution.",
       goals: [
