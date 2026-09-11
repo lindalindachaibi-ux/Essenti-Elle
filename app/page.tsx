@@ -59,13 +59,13 @@ export default function Home() {
             <div className="flagship-media reveal-img">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="Formation-changement-perspective.jpeg"
+                src="changement  de perspective.jpg"
                 alt="Changement de Perspective"
               />
               <div className="flagship-price">550 DT</div>
             </div>
             <div>
-              <span className="label">Formation phare</span>
+              <span className="label">Formation Exclusive</span>
               <h3>Changement de Perspective</h3>
               <p className="flagship-sub">
                 Confiance · Équilibre · Développement personnel
