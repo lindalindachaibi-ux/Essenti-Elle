@@ -28,7 +28,7 @@ export default function Home() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           className="hero-leaf"
-          src="/image%20globale.png"
+          src="/citation.jpeg"
           alt=""
         />
         <div className="wrap">
@@ -75,10 +75,12 @@ export default function Home() {
                 <li>Gestion des émotions</li>
                 <li>Confiance en soi</li>
                 <li>Outils pratiques et guidés</li>
+                 
               </ul>
               <div className="badges">
                 <div className="badge">Un protocole complet étape par étape</div>
                 <div className="badge">Un certificat reconnu</div>
+                <div className="badge">Possibilité d’hébergement de 5 à 10 personnes</div>
                 <div className="badge">
                   Un kit de démarrage pour lancer votre activité
                 </div>
