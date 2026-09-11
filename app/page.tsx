@@ -59,7 +59,7 @@ export default function Home() {
             <div className="flagship-media reveal-img">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=70"
+                src="Formation-changement-perspective.jpeg"
                 alt="Changement de Perspective"
               />
               <div className="flagship-price">550 DT</div>
