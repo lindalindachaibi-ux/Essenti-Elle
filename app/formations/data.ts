@@ -17,9 +17,9 @@ export const formations: Formation[] = [
       slug: "kinesiologie",
       title: "Kinésiologie",
       label: "Équilibre émotionnel & corps",
-      duration: "4 jours",
+      duration: "3 jours",
       price: "990 DT",
-      image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1200&q=70",
+      image: "/kiné.jpg",
       description: "Une approche douce et profonde pour lire le corps, les tensions et les blocages émotionnels afin de retrouver un équilibre durable.",
       summary: "La kinésiologie permet d’identifier les causes profondes de la fatigue, du stress et des tensions grâce à des tests musculaires et des outils de rééquilibrage.",
       goals: [
@@ -45,7 +45,7 @@ export const formations: Formation[] = [
       description: "Une approche manuelle globale qui prend en compte les articulations, le système musculo-squelettique et le corps dans son ensemble.",
       summary: "L'ostéopathie aide à soulager les douleurs, améliorer la mobilité et favoriser un meilleur fonctionnement du corps au quotidien.",
       goals: [
-          "Comprendre la mécanique du corps humain",
+          "Anatomie fonctionnelle du bassin féminin",
           "Repérer les zones de tension et de restriction",
           "Développer des gestes doux et efficaces",
           "Créer une approche personnalisée et globale",
@@ -64,7 +64,7 @@ export const formations: Formation[] = [
       duration: "3 jours",
       price: "790 DT",
       image: "/jus%20detox.png",
-      description: "Une formation pour apprendre à rééquilibrer l'alimentation et adopter des habitudes simples, durables et adaptées au bien-être.",
+      description: "Une formation pour apprendre à  l'alimentation et adopter des habitudes simples, durables et adaptées au bien-être.",
       summary: "La nutrition permet d'accompagner les femmes vers un mode de vie plus équilibré, avec des conseils pratiques et personnalisés.",
       goals: [
           "Mieux comprendre les besoins du corps",
