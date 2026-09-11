@@ -32,8 +32,11 @@ export default function FormationsPage() {
                   <div className="card-date">{formation.date}</div>
                   <p className="card-desc">{formation.description}</p>
                   <div className="card-action-box">
-                    <Link href={`/formations/${formation.slug}`} className="card-button">
+                    <Link href={`/formations/${formation.slug}`} className="card-button secondary">
                       Découvrir la formation
+                    </Link>
+                    <Link href={`/reservation?formation=${formation.slug}`} className="card-button">
+                      Demander le programme
                     </Link>
                   </div>
                 </div>

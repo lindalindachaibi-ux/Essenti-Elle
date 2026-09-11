@@ -130,7 +130,7 @@ export const formations: Formation[] = [
       label: "Confiance · Équilibre · Développement personnel",
       duration: "3 jours",
       price: "550 DT",
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=70",
+      image: "/changement  de perspective.jpg",
       description: "Une formation phare pour renforcer la confiance en soi, développer la présence et poser des bases solides pour une pratique professionnelle épanouissante.",
       summary: "Ce programme accompagne les participantes vers une meilleure connaissance d'elles-mêmes, une gestion émotionnelle plus sereine et une meilleure confiance dans leur évolution.",
       goals: [

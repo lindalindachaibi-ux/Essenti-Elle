@@ -157,7 +157,7 @@ section{padding:88px 0;}
 }
 .card-desc{font-size:0.88rem; color:#5C5F49; margin-bottom:18px; min-height:72px;}
 .card-link{font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:var(--olive-deep); border-bottom:1px solid var(--gold); padding-bottom:2px;}
-.card-action-box{margin-top:auto; padding-top:14px; min-height:52px; display:flex; align-items:flex-end;}
+.card-action-box{margin-top:auto; padding-top:14px; min-height:52px; display:flex; flex-direction:column; gap:12px; align-items:stretch;}
 .card-button{
   display:inline-flex; align-items:center; justify-content:center;
   background:var(--gold); color:var(--cream); border:1px solid var(--gold);
@@ -165,6 +165,10 @@ section{padding:88px 0;}
   font-size:0.78rem; letter-spacing:0.06em; text-transform:uppercase; font-weight:600;
   transition:background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
+.card-button.secondary{
+  background:transparent; color:var(--olive-deep); border-color:var(--sand);
+}
+.card-button.secondary:hover{background:var(--sand); color:var(--olive-deep);}
 .card-button:hover{background:transparent; color:var(--gold);}
 .center-cta{text-align:center; margin-top:48px;}
 @media (max-width:900px){ .cards-grid{grid-template-columns:1fr 1fr;} }
@@ -233,10 +237,45 @@ section{padding:88px 0;}
 .detail-panel p{color:#5C5F49; line-height:1.8;}
 .accent-panel{background:rgba(232,222,196,0.35);}
 
+.reservation-page{background:var(--cream); min-height:100vh;}
+.reservation-hero{padding:90px 0 32px;}
+.reservation-header{max-width:820px; margin:0 auto; text-align:center;}
+.reservation-header .label{display:inline-block; margin-bottom:14px;}
+.reservation-header h1{font-size:3rem; line-height:1.05; margin-bottom:14px;}
+.reservation-header p{color:#5C5F49; font-size:1.04rem; max-width:640px; margin:0 auto;}
+.reservation-layout{display:grid; grid-template-columns:0.9fr 1.1fr; gap:28px; padding-bottom:90px;}
+.reservation-panel, .reservation-form-panel{background:#fff; border:1px solid var(--sand); border-radius:12px; padding:32px 28px; box-shadow:0 14px 32px -28px rgba(74,82,51,0.45);}
+.reservation-panel h2{font-size:2rem; margin-bottom:14px;}
+.panel-meta{display:flex; flex-wrap:wrap; gap:12px; margin:18px 0 22px;}
+.panel-meta span{display:inline-block; background:var(--sand); color:var(--olive-deep); border-radius:999px; padding:8px 12px; font-size:0.76rem; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;}
+.panel-summary{color:#5C5F49; line-height:1.8; margin-bottom:22px;}
+.mini-check{list-style:none; display:grid; gap:12px;}
+.mini-check li{padding-left:22px; position:relative; color:#4B4E38;}
+.mini-check li::before{content:"✓"; position:absolute; left:0; color:var(--gold); font-weight:700;}
+.reservation-form{display:grid; gap:20px;}
+.field-grid{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+.field{display:grid; gap:8px;}
+.field label{font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--olive-deep);}
+.field input, .field select, .field textarea{
+  width:100%; border:1px solid rgba(74,82,51,0.18); border-radius:8px; background:#fbf8f2; padding:13px 14px; font:inherit; color:var(--ink); resize:vertical; transition:border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.field input:focus, .field select:focus, .field textarea:focus{
+  outline:none; border-color:var(--gold); box-shadow:0 0 0 3px rgba(184,145,47,0.12);
+}
+.field textarea{min-height:120px;}
+.form-actions{display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; margin-top:8px;}
+.form-note{font-size:0.76rem; color:#5C5F49;}
+
 @media (max-width:900px){
-  .formation-hero-inner, .two-col{grid-template-columns:1fr;}
+  .formation-hero-inner, .two-col, .reservation-layout{grid-template-columns:1fr;}
   .formation-list-hero h1{font-size:2.5rem;}
   .formation-copy h1{font-size:2.5rem;}
+  .reservation-header h1{font-size:2.5rem;}
+}
+@media (max-width:640px){
+  .field-grid{grid-template-columns:1fr;}
+  .form-actions{align-items:stretch;}
+  .form-actions .btn-primary, .form-actions .btn-outline{width:100%; text-align:center;}
 }
 
 /* ---------- footer ---------- */

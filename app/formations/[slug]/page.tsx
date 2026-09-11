@@ -52,7 +52,10 @@ export default async function FormationDetailPage({
               <span>{formation.price}</span>
             </div>
             <div className="formation-actions">
-              <Link href="#contact" className="btn-primary">
+              <Link
+                href={`/reservation?formation=${formation.slug}`}
+                className="btn-primary"
+              >
                 Demander le programme
               </Link>
               <Link href="/formations" className="btn-outline">

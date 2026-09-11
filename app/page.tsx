@@ -85,7 +85,7 @@ export default function Home() {
                   Un kit de démarrage pour lancer votre activité
                 </div>
               </div>
-              <a href="#" className="btn-primary">
+              <a href="/formations/changement-de-perspective" className="btn-primary">
                 Je découvre cette formation
               </a>
             </div>
