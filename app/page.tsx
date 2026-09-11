@@ -146,33 +146,63 @@ export default function Home() {
             <span className="label">L&apos;expérience client</span>
             <h2>Nos soins</h2>
           </div>
+
           <div className="soins-grid">
-            <div className="soin-card reveal">
-              <div className="soin-icon">H</div>
-              <h4>Hijama</h4>
-              <p>
-                Un soin par ventouses, ancestral et purifiant, pour relancer la
-                circulation et l&apos;énergie.
-              </p>
-            </div>
-            <div className="soin-card reveal">
-              <div className="soin-icon">M</div>
-              <h4>Massage</h4>
-              <p>
-                Kobido, anti-cellulite, drainage lymphatique — des soins
-                sur-mesure selon vos besoins.
-              </p>
-            </div>
-            <div className="soin-card reveal">
-              <div className="soin-icon">N</div>
-              <h4>Nutrition</h4>
-              <p>Un rééquilibrage alimentaire personnalisé, pensé pour durer.</p>
-            </div>
-          </div>
-          <div className="center-cta reveal">
-            <a href="#" className="btn-outline">
-              Voir tous les soins
-            </a>
+            {[
+              {
+                img: "/hijama2.jpg",
+                title: "Hijama",
+                badge: "Soin purifiant",
+                price: "80 DT",
+                duration: "45 min",
+                desc: "Un soin ancestral pour relancer la circulation, dénouer les tensions et retrouver un équilibre énergétique profond.",
+              },
+              {
+                img: "/massage2.jpg",
+                title: "Massage bien-être",
+                badge: "Détente & drainage",
+                price: "90 DT",
+                duration: "60 min",
+                desc: "Des techniques douces et ciblées pour éliminer le stress, apaiser le corps et restaurer le bien-être au quotidien.",
+              },
+              {
+                img: "/jus detox.png",
+                title: "Nutrition & detox",
+                badge: "Rééquilibrage",
+                price: "110 DT",
+                duration: "Personnalisé",
+                desc: "Un accompagnement pratique pour rétablir de bonnes habitudes alimentaires, améliorer votre vitalité et votre énergie.",
+              },
+              {
+                img: "/ostèo.jpg",
+                title: "Ostéopathie",
+                badge: "Soulagement global",
+                price: "120 DT",
+                duration: "60 min",
+                desc: "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
+              },
+            ].map((soin) => (
+              <article className="soin-feature-card reveal" key={soin.title}>
+                <div className="soin-media">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={soin.img} alt={soin.title} />
+                </div>
+
+                <div className="soin-body">
+                  <span className="soin-badge">{soin.badge}</span>
+                  <h4>{soin.title}</h4>
+                  <p>{soin.desc}</p>
+                  <div className="soin-meta">
+                    <span>{soin.price}</span>
+                    <span>{soin.duration}</span>
+                  </div>
+                </div>
+
+                <a href="https://calendly.com/essentielle-formation-bien-etre/45min" className="soin-button">
+                  Réserver votre rendez-vous
+                </a>
+              </article>
+            ))}
           </div>
         </div>
       </section>
