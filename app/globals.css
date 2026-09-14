@@ -337,14 +337,41 @@ section{padding:88px 0;}
 .form-actions{display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; margin-top:8px;}
 .form-note{font-size:0.76rem; color:#5C5F49;}
 
+.contact-page{background:var(--cream); min-height:100vh;}
+.contact-hero{padding:96px 0 32px; background:linear-gradient(180deg, rgba(232,222,196,0.75), rgba(246,241,228,0.35));}
+.contact-hero-inner{max-width:820px; margin:0 auto; text-align:center;}
+.contact-hero h1{font-size:3rem; line-height:1.05; margin-bottom:12px;}
+.contact-hero p{max-width:680px; margin:0 auto; color:#5C5F49; font-size:1.04rem;}
+.contact-content{padding:30px 0 90px;}
+.contact-grid{display:grid; grid-template-columns:1.1fr 0.9fr; gap:28px; align-items:start;}
+.contact-card{background:#fff; border:1px solid var(--sand); border-radius:12px; padding:30px 28px; box-shadow:0 14px 32px -28px rgba(74,82,51,0.45);}
+.contact-card h2{font-size:2rem; margin-bottom:20px;}
+.contact-form{display:grid; gap:18px;}
+.field-row{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+.contact-form label{display:grid; gap:8px; font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--olive-deep);}
+.contact-form input,
+.contact-form textarea{
+  width:100%; border:1px solid rgba(74,82,51,0.18); border-radius:8px; background:#fbf8f2; padding:13px 14px; font:inherit; color:var(--ink); resize:vertical;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{outline:none; border-color:var(--gold); box-shadow:0 0 0 3px rgba(184,145,47,0.12);}
+.contact-form textarea{min-height:140px;}
+.contact-list{display:grid; gap:18px; margin-top:10px;}
+.contact-list a{display:grid; gap:4px; padding:14px 16px; background:rgba(232,222,196,0.24); border:1px solid rgba(74,82,51,0.08); border-radius:10px; color:var(--olive-deep); text-decoration:none;}
+.contact-list span{font-size:0.75rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--olive);}
+.contact-list strong{font-size:1rem; color:var(--olive-deep);}
+.hours-box{margin-top:24px; padding-top:18px; border-top:1px solid rgba(74,82,51,0.1);}
+.hours-box h3{font-size:1.3rem; margin-bottom:10px;}
+.hours-box p{color:#5C5F49; line-height:1.8;}
 @media (max-width:900px){
-  .formation-hero-inner, .two-col, .reservation-layout{grid-template-columns:1fr;}
+  .formation-hero-inner, .two-col, .reservation-layout, .contact-grid{grid-template-columns:1fr;}
   .formation-list-hero h1{font-size:2.5rem;}
   .formation-copy h1{font-size:2.5rem;}
   .reservation-header h1{font-size:2.5rem;}
+  .contact-hero h1{font-size:2.5rem;}
 }
 @media (max-width:640px){
-  .field-grid{grid-template-columns:1fr;}
+  .field-grid, .field-row{grid-template-columns:1fr;}
   .form-actions{align-items:stretch;}
   .form-actions .btn-primary, .form-actions .btn-outline{width:100%; text-align:center;}
 }
