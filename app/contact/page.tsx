@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 const contactLinks = [
   {
     label: "WhatsApp",
@@ -11,12 +15,47 @@ const contactLinks = [
   },
   {
     label: "Facebook",
-    value: "Essenti'Elle",
+    value: "Essenti'Elle Formation & Bien-être",
     href: "https://www.facebook.com/profile.php?id=61593057701789",
   },
 ];
 
 export default function ContactPage() {
+  const [form, setForm] = useState({
+    name: "",
+    firstname: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  function handleChange(
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  }
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus("loading");
+
+    try {
+      const res = await fetch("https://nawres1-n8n.hf.space/webhook/form-submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      if (!res.ok) throw new Error("Erreur envoi");
+
+      setStatus("success");
+      setForm({ name: "", firstname: "", email: "", subject: "", message: "" });
+    } catch (err) {
+      setStatus("error");
+    }
+  }
+
   return (
     <main className="contact-page">
       <section className="contact-hero">
@@ -36,26 +75,53 @@ export default function ContactPage() {
         <div className="wrap contact-grid">
           <div className="contact-card contact-form-card">
             <h2>Envoyez-nous un message</h2>
-            <form className="contact-form">
+            <form className="contact-form" onSubmit={handleSubmit}>
               <div className="field-row">
                 <label>
                   Nom
-                  <input type="text" name="name" placeholder="Votre nom" />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Votre nom"
+                    value={form.name}
+                    onChange={handleChange}
+                    required
+                  />
                 </label>
                 <label>
                   Prénom
-                  <input type="text" name="firstname" placeholder="Votre prénom" />
+                  <input
+                    type="text"
+                    name="firstname"
+                    placeholder="Votre prénom"
+                    value={form.firstname}
+                    onChange={handleChange}
+                    required
+                  />
                 </label>
               </div>
 
               <label>
                 Email
-                <input type="email" name="email" placeholder="Votre email" />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Votre email"
+                  value={form.email}
+                  onChange={handleChange}
+                  required
+                />
               </label>
 
               <label>
                 Sujet
-                <input type="text" name="subject" placeholder="Objet de votre demande" />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Objet de votre demande"
+                  value={form.subject}
+                  onChange={handleChange}
+                />
               </label>
 
               <label>
@@ -64,12 +130,22 @@ export default function ContactPage() {
                   name="message"
                   placeholder="Écrivez votre message..."
                   rows={5}
+                  value={form.message}
+                  onChange={handleChange}
+                  required
                 />
               </label>
 
-              <button type="submit" className="btn-primary">
-                Envoyer
+              <button type="submit" className="btn-primary" disabled={status === "loading"}>
+                {status === "loading" ? "Envoi en cours..." : "Envoyer"}
               </button>
+
+              {status === "success" && (
+                <p className="form-success">Message envoyé avec succès !</p>
+              )}
+              {status === "error" && (
+                <p className="form-error">Une erreur est survenue, réessayez.</p>
+              )}
             </form>
           </div>
 
