@@ -172,7 +172,7 @@ export default function Home() {
               },
               {
                 img: "/kiné.jpg",
-                title: "Kinésithérapie",
+                title: "Kinésithérapeute",
                 badge: "Soulagement global",
                 desc: "La kinésiologie est une méthode douce et efficace pour écouter le corps, identifier les tensions cachées et rétablir un équilibre profond entre le physique et l’émotionnel.",
               },
