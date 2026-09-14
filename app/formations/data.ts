@@ -62,7 +62,7 @@ export const formations: Formation[] = [
       title: "Nutrition & Detox",
       label: "Mieux manger, mieux vivre",
       duration: "3 jours",
-      price: "790 DT",
+      price: "690  DT",
       image: "/jus%20detox.png",
       description: "Une formation pour apprendre à  l'alimentation et adopter des habitudes simples, durables et adaptées au bien-être.",
       summary: "La nutrition permet d'accompagner les femmes vers un mode de vie plus équilibré, avec des conseils pratiques et personnalisés.",
