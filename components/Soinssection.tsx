@@ -15,12 +15,22 @@ type Soin = {
 
 const soins: Soin[] = [
   {
+    id: "nutrition",
+    image: "/jus detox.png",
+    badge: "Rééquilibrage",
+    title: "Nutrition & detox",
+    description:
+      "• Consultation nutrition personnalisée\n• Suivi nutrition",
+    price: "110 DT",
+    duration: "Personnalisé",
+  },
+  {
     id: "hijama",
     image: "/hijama2.jpg",
     badge: "Soin purifiant",
     title: "Hijama",
     description:
-      "Un soin ancestral pour relancer la circulation, dénouer les tensions et retrouver un équilibre énergétique profond.",
+      "• Séance curative + 10 min massage\n• Séance préventive + 10 min massage\n• Séance basique (sans massage)",
     price: "80 DT",
     duration: "45 min",
   },
@@ -28,21 +38,31 @@ const soins: Soin[] = [
     id: "massage",
     image: "/massage2.jpg",
     badge: "Détente & drainage",
-    title: "Massage bien-être",
+    title: "Massages",
     description:
-      "Des techniques douces et ciblées pour éliminer le stress, apaiser le corps et restaurer le bien-être au quotidien.",
+      "• Massage lymphatique\n• Massage anti-cellulite\n• Massage relaxation & détente\n• Kinésiologie\n• Réflexologie plantaire",
     price: "90 DT",
     duration: "60 min",
   },
   {
-    id: "nutrition",
-    image: "/jus-detox.png",
-    badge: "Rééquilibrage",
-    title: "Nutrition & detox",
+    id: "kinesiologie",
+    image: "/kinesiologie.jpg",
+    badge: "Équilibre corporel",
+    title: "Kinésiologie",
     description:
-      "Un accompagnement pratique pour rétablir de bonnes habitudes alimentaires, améliorer votre vitalité et votre énergie.",
-    price: "110 DT",
-    duration: "Personnalisé",
+      "Un accompagnement doux pour repérer les tensions, les blocages et rétablir un équilibre physique et émotionnel.",
+    price: "120 DT",
+    duration: "60 min",
+  },
+  {
+    id: "reflexologie",
+    image: "/reflexologie.jpg",
+    badge: "Apaisement & énergie",
+    title: "Réflexologie",
+    description:
+      "Une technique de relaxation profonde qui aide à soulager le stress, les tensions et rétablir l'équilibre global.",
+    price: "100 DT",
+    duration: "45 min",
   },
   {
     id: "osteopathie",
@@ -53,6 +73,16 @@ const soins: Soin[] = [
       "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
     price: "120 DT",
     duration: "60 min",
+  },
+  {
+    id: "infirmier",
+    image: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80",
+    badge: "Pansements",
+    title: "Soins infirmiers",
+    description:
+      "• Changement de pansement simple\n• Changement de pansement complexe",
+    price: "80 DT",
+    duration: "30 min",
   },
 ];
 
