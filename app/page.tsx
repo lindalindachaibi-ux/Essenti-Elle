@@ -1,5 +1,5 @@
 import CinematicEngine from "@/components/CinematicEngine";
-
+import SoinsSection from "@/components/Soinssection";
 export default function Home() {
   return (
     <>
@@ -103,7 +103,7 @@ export default function Home() {
               {
                 img: "/ostéopathie-image.jpg",
                 name: "Ostéopathie : femme enceinte",
-                meta: "3 jours · 990 DT",
+                meta: "3 jours · 890 DT",
                 desc: "Une approche manuelle globale pour soulager durablement les tensions du corps.",
                 href: "/formations/osteopathie",
               },
@@ -140,6 +140,7 @@ export default function Home() {
       </section>
 
       {/* NOS SOINS */}
+
       <section id="soins" className="soins-section">
         <div className="wrap">
           <div className="section-head reveal">
@@ -149,37 +150,39 @@ export default function Home() {
 
           <div className="soins-grid">
             {[
-              {
-                img: "/hijama2.jpg",
-                title: "Hijama",
-                badge: "Soin purifiant",
-                price: "80 DT",
-                duration: "45 min",
-                desc: "Un soin ancestral pour relancer la circulation, dénouer les tensions et retrouver un équilibre énergétique profond.",
-              },
-              {
-                img: "/massage2.jpg",
-                title: "Massage bien-être",
-                badge: "Détente & drainage",
-                price: "90 DT",
-                duration: "60 min",
-                desc: "Des techniques douces et ciblées pour éliminer le stress, apaiser le corps et restaurer le bien-être au quotidien.",
-              },
+               
               {
                 img: "/jus detox.png",
                 title: "Nutrition & detox",
                 badge: "Rééquilibrage",
-                price: "110 DT",
-                duration: "Personnalisé",
-                desc: "Un accompagnement pratique pour rétablir de bonnes habitudes alimentaires, améliorer votre vitalité et votre énergie.",
+                desc: "• Consultation Nutrition Personnalisée \n • Suivi Nutrition \n ",
               },
+             
+              {
+                img: "/hijama2.jpg",
+                title: "Hijama",
+                badge: "Soin purifiant",
+                desc: "• Séance curative + 10 min massage\n • Séance préventive + 10 min massage\n • Séance basique (sans massage)\n",
+              },
+              {
+                img: "/massage2.jpg",
+                title: "Massages",
+                badge: "Détente & drainage",
+                desc: "• Massage lymphatique\n• • Massage anti-cellulite\n• Massage relaxation & détente \n • Kinésiologie\n • Réflexologie plantaire \n",
+              },
+             
+             
               {
                 img: "/ostèo.jpg",
                 title: "Ostéopathie",
                 badge: "Soulagement global",
-                price: "120 DT",
-                duration: "60 min",
                 desc: "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
+              },
+              {
+                img: "/infirmier.jpg",
+                title: "Soins infirmiers",
+                badge: "Pansements",
+                desc: "• Changement de pansement simple & complexe\n• Pose et surveillance de perfusion IV",
               },
             ].map((soin) => (
               <article className="soin-feature-card reveal" key={soin.title}>
@@ -193,8 +196,7 @@ export default function Home() {
                   <h4>{soin.title}</h4>
                   <p>{soin.desc}</p>
                   <div className="soin-meta">
-                    <span>{soin.price}</span>
-                    <span>{soin.duration}</span>
+                    
                   </div>
                 </div>
 

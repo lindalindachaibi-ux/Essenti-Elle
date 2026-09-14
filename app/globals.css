@@ -126,6 +126,40 @@ header{
   letter-spacing:0.06em; text-transform:uppercase; border:1px solid var(--gold);
 }
 .btn-outline:hover{background:var(--gold); color:var(--cream); border-color:var(--gold);}
+
+.marquee-strip{
+  position:relative;
+  overflow:hidden;
+  background:rgba(74,82,51,0.9);
+  border-top:1px solid rgba(184,145,47,0.55);
+  border-bottom:1px solid rgba(184,145,47,0.55);
+}
+.marquee-track{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  width:max-content;
+  white-space:nowrap;
+  padding:8px 0;
+  animation: marquee-scroll 18s linear infinite;
+}
+.marquee-track span{
+  display:inline-flex;
+  align-items:center;
+  font-size:0.62rem;
+  font-weight:700;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--gold);
+  opacity:0.96;
+}
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+}
 @media (max-width:900px){
   .hero-layout{grid-template-columns:1fr;}
   .hero-visual{order:-1;}
@@ -135,6 +169,9 @@ header{
   .hero h1{font-size:2.5rem;}
   .hero h1 span{font-size:1.9rem;}
   .hero-visual img{height:300px;}
+  .marquee-strip{padding:0 8px;}
+  .marquee-track{gap:8px; padding:7px 0;}
+  .marquee-track span{font-size:0.5rem; letter-spacing:0.07em;}
 }
 
 /* ---------- section shell ---------- */
@@ -210,7 +247,7 @@ section{padding:88px 0;}
   color:var(--olive-deep); font-size:0.68rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
 }
 .soin-feature-card h4{font-size:1.55rem; margin-bottom:2px;}
-.soin-feature-card p{font-size:0.88rem; color:#5C5F49; line-height:1.7;}
+.soin-feature-card p{font-size:0.88rem; color:#5C5F49; line-height:1.7; white-space:pre-line;}
 .soin-meta{display:flex; justify-content:space-between; align-items:center; gap:10px; padding-top:6px; border-top:1px solid rgba(74,82,51,0.08); font-size:0.78rem; color:var(--olive-deep); font-weight:700; letter-spacing:0.04em;}
 .soin-button{
   margin:0 20px 20px; display:inline-flex; align-items:center; justify-content:center; background:var(--gold); color:var(--cream);
