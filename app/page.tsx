@@ -108,7 +108,7 @@ export default function Home() {
                 href: "/formations/osteopathie",
               },
               {
-                img: "/hijama.png",
+                img: "/hijama2.jpg",
                 name: "Hijama",
                 meta: "3 jours · 990 DT",
                 desc: "Un soin ancestral purifiant pour relancer la circulation et rééquilibrer le corps.",
