@@ -102,7 +102,7 @@ export default function Home() {
               },
               {
                 img: "/ostéopathie-image.jpg",
-                name: "Ostéopathie : femme enceinte",
+                name: "Ostéopathe : femme enceinte",
                 meta: "3 jours · 890 DT",
                 desc: "Une approche manuelle globale pour soulager durablement les tensions du corps.",
                 href: "/formations/osteopathie",
@@ -153,7 +153,7 @@ export default function Home() {
                
               {
                 img: "/jus detox.png",
-                title: "Nutrition & detox",
+                title: "Nutritionniste  ",
                 badge: "Rééquilibrage",
                 desc: "• Consultation Nutrition Personnalisée \n • Suivi Nutrition \n ",
               },
@@ -168,13 +168,18 @@ export default function Home() {
                 img: "/massage2.jpg",
                 title: "Massages",
                 badge: "Détente & drainage",
-                desc: "• Massage lymphatique\n• • Massage anti-cellulite\n• Massage relaxation & détente \n • Kinésiologie\n • Réflexologie plantaire \n",
+                desc: "• Massage lymphatique\n• • Massage anti-cellulite\n• Massage relaxation & détente \n• Réflexologie plantaire \n",
               },
-             
+              {
+                img: "/kiné.jpg",
+                title: "Kinésithérapie",
+                badge: "Soulagement global",
+                desc: "La kinésiologie est une méthode douce et efficace pour écouter le corps, identifier les tensions cachées et rétablir un équilibre profond entre le physique et l’émotionnel.",
+              },
              
               {
                 img: "/ostèo.jpg",
-                title: "Ostéopathie",
+                title: "Ostéopathe",
                 badge: "Soulagement global",
                 desc: "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
               },
