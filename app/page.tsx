@@ -294,10 +294,10 @@ export default function Home() {
             </div>
             <div>
               <h5>Contact</h5>
-              <a href="#">WhatsApp Tunisie</a>
-              <a href="#">WhatsApp France</a>
-              <a href="#">Instagram</a>
-              <a href="#">Facebook</a>
+              <a href="https://wa.me/21623163109">WhatsApp Tunisie</a>
+              
+              <a href="https://www.instagram.com/essentielle_formation_bienetre/  ">Instagram</a>
+              <a href="https://www.facebook.com/profile.php?id=61593057701789">Facebook</a>
             </div>
             <div>
               <h5>Informations</h5>
