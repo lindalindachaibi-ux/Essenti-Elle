@@ -184,7 +184,7 @@ export default function Home() {
                 desc: "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
               },
               {
-                img: "/infirmier.jpg",
+                img: "soins infirmiers.jpg",
                 title: "Soins infirmiers",
                 badge: "Pansements",
                 desc: "• Changement de pansement simple & complexe\n• Pose et surveillance de perfusion IV",
