@@ -96,7 +96,7 @@ export default function Home() {
               {
                 img: "/jus-vert.jpg",
                 name: "Nutrition & Détox",
-                meta: "3 jours · 990 DT",
+                meta: "3 jours · 590 DT",
                 desc: "Une approche globale pour rééquilibrer son alimentation et retrouver un bien-être durable.",
                 href: "/formations/nutrition",
               },
@@ -110,7 +110,7 @@ export default function Home() {
               {
                 img: "/hijama2.jpg",
                 name: "Hijama",
-                meta: "3 jours · 990 DT",
+                meta: "3 jours · 690 DT",
                 desc: "Un soin ancestral purifiant pour relancer la circulation et rééquilibrer le corps.",
                 href: "/formations/hijama",
               },
@@ -220,9 +220,9 @@ export default function Home() {
               <div className="icon">⌂</div>
               <h3>Présentiel</h3>
               <ul>
-                <li>3 jours de formation à l&apos;académie</li>
-                <li>Hébergement possible sur place</li>
-                <li>Certificat international reconnu</li>
+                <li>3 jours de formation au centre</li>
+                <li>Hébergement optionel</li>
+                <li>Certification agréé et reconnu par l'État</li>
               </ul>
             </div>
             <div className="format-col">
