@@ -168,7 +168,7 @@ export default function Home() {
                 img: "/massage2.jpg",
                 title: "Massages",
                 badge: "Détente & drainage",
-                desc: "• Massage lymphatique\n• • Massage anti-cellulite\n• Massage relaxation & détente \n• Réflexologie plantaire \n",
+                desc: "• Massage lymphatique\n • Massage anti-cellulite\n• Massage relaxation & détente \n• Réflexologie plantaire \n",
               },
               {
                 img: "/kiné.jpg",
