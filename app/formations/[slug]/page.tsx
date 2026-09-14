@@ -110,9 +110,9 @@ export default async function FormationDetailPage({
               <div className="icon">◷</div>
               <h3>En ligne</h3>
               <ul>
-                <li>Cours disponibles 24h/24</li>
-                <li>Quiz et validations entre modules</li>
-                <li>Test final pour la certification</li>
+                <li>Cours à votre rythme disponible 24h/24h</li>
+                <li>Quiz chaque module</li>
+                <li>Certification agréé et reconnu par l'État</li>
               </ul>
             </div>
           </div>

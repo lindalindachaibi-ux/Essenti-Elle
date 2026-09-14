@@ -229,8 +229,8 @@ export default function Home() {
               <div className="icon">◷</div>
               <h3>En ligne</h3>
               <ul>
-                <li>24/24 à votre rythme </li>
-                <li>Quiz entre chaque module</li>
+                <li>Cours à votre rythme disponible 24/24h </li>
+                <li>Quiz chaque module</li>
                 <li>Certification agréé et reconnu par l'État</li>
               </ul>
             </div>

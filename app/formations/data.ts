@@ -59,12 +59,12 @@ export const formations: Formation[] = [
   },
   {
       slug: "nutrition",
-      title: "Nutrition & Detox",
+      title: "Detox",
       label: "Mieux manger, mieux vivre",
       duration: "3 jours",
       price: "690  DT",
       image: "/jus%20detox.png",
-      description: "Une formation pour apprendre à  l'alimentation et adopter des habitudes simples, durables et adaptées au bien-être.",
+      description: "Apprendre  à nourir la peau de l'intérieur pour l'éclat ,la détoxitication et le bien-être .",
       summary: "La nutrition permet d'accompagner les femmes vers un mode de vie plus équilibré, avec des conseils pratiques et personnalisés.",
       goals: [
           "Mieux comprendre les besoins du corps",
