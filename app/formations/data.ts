@@ -13,6 +13,28 @@ export type Formation = {
 };
 
 export const formations: Formation[] = [
+    {
+      slug: "changement-de-perspective",
+      title: "Changement de Perspective",
+      label: "Confiance · Équilibre · Développement personnel",
+      duration: "3 jours",
+      price: "550 DT",
+      image: "/Formation-changement-perspective.jpeg",
+      description: "Une formation phare pour renforcer la confiance en soi, développer la présence et poser des bases solides pour une pratique professionnelle épanouissante.",
+      summary: "Ce programme accompagne les participantes vers une meilleure connaissance d'elles-mêmes, une gestion émotionnelle plus sereine et une meilleure confiance dans leur évolution.",
+      goals: [
+          "Développer sa confiance intérieure",
+          "Travailler ses émotions et son énergie",
+          "Structurer une vision claire de son projet",
+          "Lancer sa pratique avec davantage d'assurance",
+      ],
+      format: [
+          "Méthode guidée et concrète",
+          "Outils pratiques et accompagnement",
+          "Certification agréé et reconnu par l'État",
+      ],
+      date: ""
+  },
   {
       slug: "kinesiologie",
       title: "Kinésiologie",
@@ -40,7 +62,7 @@ export const formations: Formation[] = [
       title: "Ostéopathie",
       label: "Soulagement global et durable : specialité femmes enciente",
       duration: "3 jours",
-      price: "990 DT",
+      price: "890 DT",
       image: "/ostéopathie-image.jpg",
       description: "Une approche manuelle globale qui prend en compte les articulations, le système musculo-squelettique et le corps dans son ensemble.",
       summary: "L'ostéopathie aide à soulager les douleurs, améliorer la mobilité et favoriser un meilleur fonctionnement du corps au quotidien.",
@@ -107,7 +129,7 @@ export const formations: Formation[] = [
       title: "Réflexologie",
       label: "Restauration de l'équilibre",
       duration: "3 jours",
-      price: "790 DT",
+      price: "550 DT",
       image: "/reflexologie.jpg",
       description: "Une technique manuelle ciblée pour rétablir l'équilibre énergétique du corps et favoriser le bien-être global.",
       summary: "La réflexologie agit sur les zones réflexes du pied pour soulager les tensions, le stress et les déséquilibres corporels.",
@@ -119,33 +141,33 @@ export const formations: Formation[] = [
       ],
       format: [
           "Initiation pratique",
-          "Workshops et démonstrations",
-          "Certification de fin de parcours",
+          "Application et démonstrations",
+          "Certification agréé et reconnu par l'État",
       ],
       date: ""
   },
-  {
-      slug: "changement-de-perspective",
-      title: "Changement de Perspective",
-      label: "Confiance · Équilibre · Développement personnel",
+  {slug: "massage",
+      title: "Massage lymphatique",
+      label: "Drainage · Détente · Bien-être",
       duration: "3 jours",
       price: "550 DT",
-      image: "/Formation-changement-perspective.jpeg",
-      description: "Une formation phare pour renforcer la confiance en soi, développer la présence et poser des bases solides pour une pratique professionnelle épanouissante.",
-      summary: "Ce programme accompagne les participantes vers une meilleure connaissance d'elles-mêmes, une gestion émotionnelle plus sereine et une meilleure confiance dans leur évolution.",
+      image: "/massage2.jpg",
+      description: "Un massage doux et ciblé qui stimule le système lymphatique, améliore la circulation et aide à réduire la rétention d'eau, les tensions et le stress.",
+      summary: "Le massage lymphatique aide à relancer le drainage naturel du corps, favoriser l'élimination des toxines et retrouver une sensation de légèreté, de confort et d'équilibre.",
       goals: [
-          "Développer sa confiance intérieure",
-          "Travailler ses émotions et son énergie",
-          "Structurer une vision claire de son projet",
-          "Lancer sa pratique avec davantage d'assurance",
+          "Comprendre les principes du drainage lymphatique",
+          "Maîtriser les gestes doux et efficaces du massage lymphatique",
+          "Identifier les zones de stagnation et de tension",
+          "Accompagner le bien-être corporel avec une approche douce et professionnelle",
       ],
       format: [
-          "Méthode guidée et concrète",
-          "Outils pratiques et accompagnement",
-          "Certificat reconnu",
+          "Initiation pratique et démonstrations",
+          "Techniques de drainage sur le corps entier",
+          "Certification agréé et reconnu par l'État",
       ],
       date: ""
   },
+  
 ];
 
 export function getFormationBySlug(slug: string) {
