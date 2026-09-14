@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Montserrat, Tangerine } from "next/font/google";
 import "./globals.css";
+import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${montserrat.variable} ${tangerine.variable}`}
       >
+        <WhatsAppFloatingButton/>
         {children}
       </body>
     </html>
