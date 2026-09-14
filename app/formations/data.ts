@@ -86,7 +86,7 @@ export const formations: Formation[] = [
       label: "Soin ancestral et régénérant",
       duration: "3 jours",
       price: "990 DT",
-      image: "/hijama.png",
+      image: "/hijama2.jpg",
       description: "Une tradition de soin ancestrale qui vise à relancer la circulation, favoriser les éliminations et rééquilibrer le corps.",
       summary: "Le Hijama est un soin ancestral purifiant qui agit sur la circulation sanguine et énergétique pour retrouver un état de bien-être plus stable.",
       goals: [
