@@ -123,7 +123,7 @@ export default function Home() {
                 href: "/formations/kobido",
               },
               {
-                img: "/massage2.jpg",
+                img: "/massage cellulite.png",
                 name: "Anti-cellulite",
                 meta: "3 jours · 690 DT",
                 desc: "Des gestes ciblés pour tonifier, drainer et améliorer la texture de peau en douceur.",

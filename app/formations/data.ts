@@ -182,7 +182,7 @@ export const formations: Formation[] = [
       label: "Sculptage · remodelage · tonification",
       duration: "3 j / 24 h",
       price: "990 DT",
-      image: "/massage2.jpg",
+      image: "/massage cellulite.png",
       description: "Techniques manuelles esthétiques anti-cellulite et bien-être",
       summary: "Cette formation se concentre sur les techniques manuelles esthétiques et le remodelage corporel pour aider à réduire l'apparence de la cellulite, améliorer la circulation et tonifier la peau.",
       goals: [
@@ -274,7 +274,7 @@ export const formations: Formation[] = [
       label: "Drainage · Détente · Bien-être",
       duration: "3 jours",
       price: "550 DT",
-      image: "/massage2.jpg",
+      image: "/massage lymphatique.png",
       description: "Techniques manuelles de drainage à visée de bien-être et esthétique.",
       summary: "Le massage lymphatique aide à relancer le drainage naturel du corps, favoriser l'élimination des toxines et retrouver une sensation de légèreté, de confort et d'équilibre.",
       goals: [
