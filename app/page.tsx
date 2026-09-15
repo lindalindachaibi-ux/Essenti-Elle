@@ -65,7 +65,8 @@ export default function Home() {
             </div>
             <div>
               <span className="label">Formation Exclusive</span>
-              <h3>Changement de Perspective</h3>
+              <h3>
+                Communication, confiance en soi et gestion du stress</h3>
               <p className="flagship-sub">
                 Confiance · Équilibre · Développement personnel
               </p>
@@ -74,6 +75,7 @@ export default function Home() {
                 <li>Gestion des émotions</li>
                 <li>Confiance en soi</li>
                 <li>Outils pratiques et guidés</li>
+                <li>Certificat de participation à la formation</li>
                  
               </ul>
               <div className="badges">
@@ -95,15 +97,15 @@ export default function Home() {
             {[
               {
                 img: "/jus-vert.jpg",
-                name: "Nutrition & Détox",
+                name: "Éducation à l'équilibre alimentaire et à l'hygiène de vie",
                 meta: "3 jours · 590 DT",
                 desc: "Une approche globale pour rééquilibrer son alimentation et retrouver un bien-être durable.",
                 href: "/formations/nutrition",
               },
               {
                 img: "/ostéopathie-image.jpg",
-                name: "Ostéopathe : femme enceinte",
-                meta: "3 jours · 890 DT",
+                name: " Initiation à l'anatomie et à la biomécanique du corps humain",
+                meta: "3 jours · 990 DT",
                 desc: "Une approche manuelle globale pour soulager durablement les tensions du corps.",
                 href: "/formations/osteopathie",
               },
@@ -113,6 +115,20 @@ export default function Home() {
                 meta: "3 jours · 690 DT",
                 desc: "Un soin ancestral purifiant pour relancer la circulation et rééquilibrer le corps.",
                 href: "/formations/hijama",
+              },
+              {
+                img: "/Kibodo 1-ezremove.png",
+                name: "Kobido",
+                meta: "3 jours · 890 DT",
+                desc: "Un massage énergisant pour réveiller la vitalité, la circulation et l'éclat naturel du corps.",
+                href: "/formations/kobido",
+              },
+              {
+                img: "/massage2.jpg",
+                name: "Anti-cellulite",
+                meta: "3 jours · 690 DT",
+                desc: "Des gestes ciblés pour tonifier, drainer et améliorer la texture de peau en douceur.",
+                href: "/formations/anti-cellulite",
               },
             ].map((f) => (
               <div className="card reveal" key={f.name}>
@@ -184,7 +200,7 @@ export default function Home() {
                 desc: "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
               },
               {
-                img: "soins infirmiers.jpg",
+                img: "/soins infirmiers.jpeg",
                 title: "Soins infirmiers",
                 badge: "Pansements",
                 desc: "• Changement de pansement simple & complexe\n• Pose et surveillance de perfusion IV",
