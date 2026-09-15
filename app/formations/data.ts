@@ -20,7 +20,7 @@ export const formations: Formation[] = [
       duration: "3 j / 24 h",
       price: "550 DT",
       image: "/changement  de perspective.jpg",
-      description: "Techniques de développement personnel et gestion du stress.",
+      description: "Techniques d'accompagnement et développement personnel",
       summary: "Connaissance de soi, communication, confiance en soi, gestion du stress, fixation d'objectifs, organisation, communication professionnelle et plan d'action personnel.",
       goals: [
           "Développer sa connaissance de soi",
@@ -40,7 +40,7 @@ export const formations: Formation[] = [
   {
       slug: "kinesiologie",
       title: "Kinésiologie",
-      label: "Public : professionnelles du bien-être et accompagnement",
+      label: "Public déstiné : professionnelles du bien-être et accompagnement",
       duration: "3 jours",
       price: "990 DT",
       image: "/kiné.jpg",
@@ -113,7 +113,7 @@ export const formations: Formation[] = [
       duration: "3 jours",
       price: "690 DT",
       image: "/hijama2.jpg",
-      description: "Une tradition de soin ancestrale qui vise à relancer la circulation, favoriser les éliminations et rééquilibrer le corps.",
+      description: "Techniques de cupping / ventouses dans le cadre du bien-être.",
       summary: "Le Hijama est un soin ancestral purifiant qui agit sur la circulation sanguine et énergétique pour retrouver un état de bien-être plus stable.",
       goals: [
           "Découvrir la technique et ses principes",
@@ -131,7 +131,7 @@ export const formations: Formation[] = [
   {
       slug: "reflexologie",
       title: "Réflexologie",
-      label: "Public : professionnelles du bien-être, esthétique et personnes en reconversion",
+      label: "Public déstiné : professionnelles du bien-être, esthétique et personnes en reconversion",
       duration: "3 j / 24 h",
       price: "790 DT",
       image: "/reflexologie.jpg",
@@ -155,12 +155,12 @@ export const formations: Formation[] = [
   },
   {
       slug: "kobido",
-      title: "Techniques manuelles esthétiques du visage et du cou",
+      title: "Kubido",
       label: "Public : esthéticiennes et professionnelles du bien-être",
       duration: "3 j / 24 h",
       price: "890 DT",
       image: "/Kibodo 1-ezremove.png",
-      description: "Formation dédiée aux techniques manuelles esthétiques du visage et du cou, avec une approche précise sur l'anatomie, la préparation du client, les manœuvres et les précautions à respecter.",
+      description: "Techniques de massage facial japonais à visée de bien-être et esthétique",
       summary: "Contenu : anatomie superficielle du visage et du cou, hygiène, préparation de la cliente, manœuvres esthétiques, rythme/pression, protocole visage-cou, précautions, contre-indications, démonstration et évaluation pratique.",
       goals: [
           "Comprendre l'anatomie superficielle du visage et du cou",
@@ -178,12 +178,12 @@ export const formations: Formation[] = [
   },
   {
       slug: "anti-cellulite",
-      title: "Anti-cellulite",
+      title: "Massage anti-cellulite",
       label: "Sculptage · remodelage · tonification",
       duration: "3 j / 24 h",
       price: "990 DT",
       image: "/massage2.jpg",
-      description: "Techniques manuelles esthétiques et remodelage corporel",
+      description: "Techniques manuelles esthétiques anti-cellulite et bien-être",
       summary: "Cette formation se concentre sur les techniques manuelles esthétiques et le remodelage corporel pour aider à réduire l'apparence de la cellulite, améliorer la circulation et tonifier la peau.",
       goals: [
           "Comprendre l'anatomie générale et le tissu cutané",
@@ -201,9 +201,9 @@ export const formations: Formation[] = [
   },
   {
       slug: "aide-a-la-personne-agee",
-      title: "Aide à la personne âgée",
-      label: "Public :professionnelles de l'accompagnement et personnes souhaitant développer des compétences en soins aux personnes âgées",
-      duration: "3 jours",
+      title: "Sensibilisation à l'accompagnement quotidien de la personne âgée.",
+      label: "Public déstiné :professionnelles de l'accompagnement et personnes souhaitant développer des compétences en soins aux personnes âgées",
+      duration: "Parcours long",
       price: "3 500 DT",
       image: "/Auxiliaire de vie.png",
       description: "Programme de sensibilisation à l'accompagnement quotidien de la personne âgée, avec une approche pratique sur l'autonomie, le confort, la sécurité et le respect de la dignité.",
@@ -224,13 +224,37 @@ export const formations: Formation[] = [
       date: ""
   },
   {
+      slug: "nutrition-avancee",
+      title: " Perfectionnement en éducation nutritionnelle réservé aux professionnels concernés",
+      label: "Public déstiné à restreindre selon le niveau",
+      duration: "",
+      price: "1 490 DT",
+      image: "/Nutrition avancé.png",
+      description: "Nutrition appliquée aux situations physiologiques et pathologiques",
+      summary: "Physiologie de la nutrition, diabète, obésité, hypertension, dénutrition, pathologies digestives, nutrition de la personne âgée, situations hormonales, études de cas, limites professionnelles et orientation médicale.",
+      goals: [
+          "Comprendre la physiologie de la nutrition",
+          "Analyser les situations de diabète, obésité et hypertension",
+          "Identifier la dénutrition et les pathologies digestives",
+          "Adapter la nutrition à la personne âgée et aux situations hormonales",
+          "Étudier des cas concrets et respecter les limites professionnelles",
+          "Orienter correctement vers le recours médical adapté",
+      ],
+      format: [
+          "Apports théoriques spécialisés",
+          "Études de cas et analyse de situations cliniques",
+          "Certificat de perfectionnement : Nutrition appliquée aux situations physiologiques et pathologiques",
+      ],
+      date: ""
+  },
+  {
       slug: "soins-infirmiers-hygiene-prevention-environnement-sanitaire",
       title: " Hygiène, prévention et environnement sanitaire : connaissances générales",
       label: "Hygiène · Prévention · Environnement sanitaire",
       duration: "3 jours",
       price: "990 DT",
       image: "/soins infirmiers.jpeg",
-      description: "Formation de base en hygiène, prévention et environnement sanitaire pour acquérir les connaissances essentielles des soins infirmiers et des bonnes pratiques de prévention.",
+      description: "Techniques et connaissances fondamentales en environnement de soins.",
       summary: "Ce programme permet de maîtriser les fondamentaux de l'hygiène, la prévention des risques et les exigences de qualité de l'environnement sanitaire dans un cadre professionnel.",
       goals: [
           "Comprendre les principes de base de l'hygiène",
@@ -246,12 +270,12 @@ export const formations: Formation[] = [
       date: ""
   },
   {slug: "massage",
-      title: "Massage lymphatique",
+      title: "Drainage ",
       label: "Drainage · Détente · Bien-être",
       duration: "3 jours",
       price: "550 DT",
       image: "/massage2.jpg",
-      description: "Un massage doux et ciblé qui stimule le système lymphatique, améliore la circulation et aide à réduire la rétention d'eau, les tensions et le stress.",
+      description: "Techniques manuelles de drainage à visée de bien-être et esthétique.",
       summary: "Le massage lymphatique aide à relancer le drainage naturel du corps, favoriser l'élimination des toxines et retrouver une sensation de légèreté, de confort et d'équilibre.",
       goals: [
           "Comprendre les principes du drainage lymphatique",
