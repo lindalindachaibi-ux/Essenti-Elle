@@ -113,7 +113,7 @@ export const formations: Formation[] = [
       duration: "3 jours",
       price: "690 DT",
       image: "/hijama2.jpg",
-      description: "Techniques de cupping / ventouses dans le cadre du bien-être.",
+      description: "Techniques de cupping / ventouses dans le cadre du bien-être et esthétique.",
       summary: "Le Hijama est un soin ancestral purifiant qui agit sur la circulation sanguine et énergétique pour retrouver un état de bien-être plus stable.",
       goals: [
           "Découvrir la technique et ses principes",
@@ -290,7 +290,32 @@ export const formations: Formation[] = [
       ],
       date: ""
   },
- 
+  {slug: "Herboristerie",
+      title: "Connaissance des plantes, usages traditionnels et bien-être",
+      label: "Herboristerie · Bien-être",
+      duration: "3 j",
+      price: "550 DT",
+      image: "/Herboristerie.jpg",
+      description: "Connaissance des plantes, usages traditionnels et bien-être dans le cadre d'une approche de sensibilisation et de prévention.",
+      summary: "Public déstiné : professionnelles du bien-être, personnes souhaitant développer des connaissances en herboristerie et bien-être.",
+      goals: [
+          "Identification des plantes usuelles",
+          "Connaître les parties des plantes et leurs usages",
+          "Comprendre la conservation et le stockage des plantes",
+          "Découvrir les usages traditionnels et culturels",
+          "Préparer des infusions sans but thérapeutique de manière sûre",
+          "Respecter les règles d'hygiène et les précautions générales",
+          "Identifier les plantes à risque et les interactions possibles",
+          "Comprendre les limites professionnelles et l'orientation vers médecin/pharmacien",
+      ],
+      format: [
+          "Approche pratique et pédagogique",
+          "Étude des plantes, usages et précautions",
+          "CERTIFICAT DE FORMATION : Connaissance des plantes, usages traditionnels et bien-être",
+      ],
+      date: ""
+  },
+
     
   
 ];

@@ -28,16 +28,15 @@ export default function Home() {
         <div className="wrap hero-layout">
           <div className="hero-inner">
             <span className="label eyebrow">
-              Centre de formation professionnelle international
+              CENTRE DE FORMATION   Bien-être & Accompagnement
             </span>
             <h1>
               Une approche globale{" "}
               <span>pour soulager, rééquilibrer et prévenir durablement</span>
             </h1>
             <p className="hero-copy">
-              Des formations pensées pour les femmes, entre expertise thérapeutique
-              et bien-être — réflexologie, kinésiologie, massages, ostéopathie,
-              hijama, nutrition.
+              Développez vos compétences au service du bien-être et de l’accompagnement .
+            Des formations professionnelles destinées aux femmes, autour du bien-être, de l’accompagnement, de l’hygiène de vie, de l’équilibre alimentaire, de la connaissance du corps et du développement personnel.
             </p>
             <a href="#formations" className="btn-primary">
               Découvrir les formations
