@@ -98,14 +98,14 @@ export default function Home() {
                 img: "/jus-vert.jpg",
                 name: "Éducation à l'équilibre alimentaire et à l'hygiène de vie",
                 meta: "3 jours · 590 DT",
-                desc: "Une approche globale pour rééquilibrer son alimentation et retrouver un bien-être durable.",
+                desc: "Nutrition, équilibre alimentaire et hygiène de vie.",
                 href: "/formations/nutrition",
               },
               {
                 img: "/ostéopathie-image.jpg",
                 name: " Initiation à l'anatomie et à la biomécanique du corps humain",
                 meta: "3 jours · 990 DT",
-                desc: "Une approche manuelle globale pour soulager durablement les tensions du corps.",
+                desc: " Anatomie fonctionnelle, biomécanique et techniques corporelles.",
                 href: "/formations/osteopathie",
               },
               {
