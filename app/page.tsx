@@ -248,9 +248,10 @@ export default function Home() {
             <div>
               <h5>Contact</h5>
               <a href="https://wa.me/21623163109">WhatsApp Tunisie</a>
-              
-              <a href="https://www.instagram.com/essentielle_formation_bienetre/  ">Instagram</a>
-              <a href="https://www.facebook.com/profile.php?id=61593057701789">Facebook</a>
+              <a href="https://www.tiktok.com/@essentielle.formation.tn" target="_blank" rel="noopener noreferrer">TikTok</a>
+              <a href="https://www.instagram.com/essentielle_formation_bienetre/  " target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.facebook.com/profile.php?id=61593057701789" target="_blank" rel="noopener noreferrer">Facebook</a>
+             <a href="mailto:contact@essentielle-bienetre.com">contact@essentielle-bienetre.com</a>
             </div>
             <div>
               <h5>Informations</h5>
