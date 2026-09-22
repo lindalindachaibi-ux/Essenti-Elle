@@ -197,7 +197,7 @@ const formationsData: Formation[] = [
       label: "Public : esthéticiennes et professionnelles du bien-être",
       duration: "3 j",
       price: "890 DT",
-      image: "/Kibodo 1-ezremove.png",
+      image: "/Kobido.png",
       description: "Techniques de massage facial japonais à visée de bien-être et esthétique",
       summary: "Contenu : anatomie superficielle du visage et du cou, hygiène, préparation de la cliente, manœuvres esthétiques, rythme/pression, protocole visage-cou, précautions, contre-indications, démonstration et évaluation pratique.",
       goals: [
