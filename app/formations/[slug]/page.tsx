@@ -100,9 +100,10 @@ export default async function FormationDetailPage({
               <div className="icon">⌂</div>
               <h3>Présentiel</h3>
               <ul>
-                {formation.format.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
+                <li>Cours théoriques, démonstrations et mises en situation</li>
+                <li>Techniques et protocoles professionnels</li>
+                <li>Évaluation des acquis</li>
+                <li>Attestation de fin de formation délivrée par Essenti’Elle</li>
               </ul>
             </div>
 
@@ -110,9 +111,11 @@ export default async function FormationDetailPage({
               <div className="icon">◷</div>
               <h3>En ligne</h3>
               <ul>
-                <li>Cours à votre rythme disponible 24h/24h</li>
-                <li>Quiz chaque module</li>
-                <li>Certification agréé et reconnu par l'État</li>
+                <li>Formation accessible à votre rythme 24h/24</li>
+                <li>Quiz et évaluations tout au long du parcours</li>
+                
+                <li>Certificat de réussite Essenti’Elle délivré après validation du parcours</li>
+                NB « Démarches d’agrément et d’homologation en cours auprès des organismes compétents. »
               </ul>
             </div>
           </div>
