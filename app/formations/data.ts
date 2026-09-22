@@ -295,7 +295,7 @@ const formationsData: Formation[] = [
         label: "Techniques fondamentales d'accompagnement et environnement de soins",
         duration: "3 j / 24 h",
         price: "990 DT",
-        image: "/si.png",
+        image: "/environnement-sanitaire.png",
         description: "Techniques fondamentales d'accompagnement et environnement de soins.",
         summary: "Un parcours d'introduction pour comprendre l'environnement de soins, les règles d'hygiène, la prévention des risques et les bases de l'accompagnement.",
         goals: [
