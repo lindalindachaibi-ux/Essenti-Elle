@@ -40,7 +40,7 @@ const soins: Soin[] = [
     badge: "Détente & drainage",
     title: "Massages",
     description:
-  "• Massage lymphatique\n• Massage anti-cellulite\n• Massage relaxation & détente\n• Kubido (massage visage)",
+  "• Massage lymphatique\n• Massage anti-cellulite\n• Massage relaxation & détente\n• Kobido (lifting visage)",
     price: "90 DT",
     duration: "60 min",
   },
@@ -50,7 +50,7 @@ const soins: Soin[] = [
     badge: "Équilibre corporel",
     title: "Kinésiologie",
     description:
-      "Un accompagnement doux pour repérer les tensions, les blocages et rétablir un équilibre physique et émotionnel.",
+      "Un accompagnement doux pour repérer les tensions musculaire, les blocages et rétablir un équilibre physique et émotionnel.",
     price: "90 DT",
     duration: "60 min",
   },
@@ -70,7 +70,7 @@ const soins: Soin[] = [
     badge: "Soulagement global",
     title: "Ostéopathie",
     description:
-      "Une approche manuelle douce pour retrouver mobilité, confort et équilibre dans le corps et dans les gestes du quotidien.",
+      "Une approche manuelle douce pour retrouver l'articulation, confort et équilibre dans le corps et dans les gestes du quotidien.",
     price: "120 DT",
     duration: "60 min",
   },
