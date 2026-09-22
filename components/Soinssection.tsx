@@ -70,7 +70,7 @@ const soins: Soin[] = [
     badge: "Soulagement global",
     title: "Ostéopathie",
     description:
-      "Une approche manuelle douce pour retrouver l'articulation, confort et équilibre dans le corps et dans les gestes du quotidien.",
+      "Une approche manuelle douce pour retrouver une articulation , confort et équilibre dans le corps et dans les gestes du quotidien.",
     price: "120 DT",
     duration: "60 min",
   },
