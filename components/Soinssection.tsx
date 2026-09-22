@@ -80,7 +80,7 @@ const soins: Soin[] = [
     badge: "Pansements",
     title: "Soins infirmiers",
     description:
-      "• Changement de pansement simple\n• Changement de pansement complexe \n• Bilan des paramètres corporels et physiologiques",
+      "• Changement de pansement simple & complexe \n• Bilan des paramètres corporels et physiologiques \n• Injections \n• Prélèvements sanguins \n• Perfusion ",
     price: "30 -150 DT",
     duration: "30 min",
   },
