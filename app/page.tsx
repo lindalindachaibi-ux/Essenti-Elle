@@ -129,6 +129,13 @@ export default function Home() {
                 desc: "Des gestes ciblés pour tonifier, drainer et améliorer la texture de peau en douceur.",
                 href: "/formations/anti-cellulite",
               },
+              {
+                img: "/Natrupathie.png",
+                name: "Naturopathie & Hygiène de Vie",
+                meta: "3 jours · 890 DT",
+                desc: "Un accompagnement personnalisé pour améliorer votre équilibre et votre bien-être au quotidien.",
+                href: "/formations/naturopathie-hygiene-de-vie",
+              },
             ].map((f) => (
               <div className="card reveal" key={f.name}>
                 <div className="card-media reveal-img">

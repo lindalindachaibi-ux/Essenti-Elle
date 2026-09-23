@@ -142,6 +142,32 @@ const formationsData: Formation[] = [
       sessions: []
   },
   {
+    slug: "naturopathie-hygiene-de-vie",
+    category: "Naturopathie & hygiène de vie",
+      title: "Naturopathie & Hygiène de Vie",
+      label: "Public : professionnelles du bien-être, praticiennes en massage, personnes en reconversion et toute personne souhaitant développer des compétences en accompagnement du bien-être",
+      duration: "3 jours",
+      price: "890 DT",
+      image: "/Natrupathie.png",
+      description: "La formation Naturopathie & Hygiène de Vie permet d’acquérir les bases nécessaires pour comprendre les grands principes de l’hygiène de vie naturelle et de l’accompagnement global du bien-être. Elle aborde notamment l’alimentation, l’équilibre de vie, la gestion du stress, le sommeil, l’activité physique, les plantes et les techniques naturelles de bien-être.",
+      summary: "Apprendre à réaliser un bilan d’hygiène de vie et à proposer des conseils personnalisés de prévention et de bien-être, sans diagnostic médical, prescription médicale ni modification d’un traitement en cours.",
+      goals: [
+          "Comprendre les grands principes de l’hygiène de vie naturelle",
+          "Analyser les facteurs de l’équilibre alimentaire et de l’environnement de vie",
+          "Identifier les bases de la gestion du stress, du sommeil et de l’activité physique",
+          "Découvrir les plantes et les techniques naturelles de bien-être",
+          "Réaliser un bilan d’hygiène de vie de manière globale et personnalisée",
+          "Proposer des conseils de prévention et de bien-être dans le respect des limites professionnelles",
+          "Respecter les règles de non-diagnostic, non-prescription et non-substitution médicale",
+      ],
+      format: [
+          "Apports théoriques, études de cas et mises en pratique",
+          "Approche holistique de l’hygiène de vie et du bien-être",
+          "Certificat : Naturopathie & Hygiène de Vie",
+      ],
+      sessions: []
+  },
+  {
     slug: "hijama",
     category: "Massage, Hijama et Herboristerie",
       title: "Hijama",
@@ -394,6 +420,7 @@ const audienceBySlug: Record<string, FormationAudience[]> = {
     kinesiologie: ["professionnelles", "reconversion"],
     osteopathie: ["professionnelles", "reconversion"],
     nutrition: ["accessible", "reconversion"],
+    "naturopathie-hygiene-de-vie": ["accessible", "reconversion"],
     hijama: ["professionnelles", "reconversion"],
     reflexologie: ["professionnelles", "reconversion"],
     kobido: ["professionnelles", "reconversion"],

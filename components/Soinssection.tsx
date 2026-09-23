@@ -25,25 +25,16 @@ const soins: Soin[] = [
     duration: "Personnalisé",
   },
   {
-    id: "hijama",
-    image: "/hijama2.jpg",
-    badge: "Soin purifiant",
-    title: "Hijama",
+    id: "naturopathie",
+    image: "/Natrupathie.png",
+    badge: "Conseils naturels",
+    title: "Consultation Naturopathie & Hygiène de Vie",
     description:
-      "• Séance curative + 10 min massage\n• Séance préventive + 10 min massage\n• Séance basique",
-    price: "60 DT",
-    duration: "45 min",
+      "Un accompagnement personnalisé pour améliorer votre équilibre et votre bien-être au quotidien : alimentation, sommeil, stress, digestion, énergie et habitudes de vie.",
+    price: "110 DT",
+    duration: "1h",
   },
-  {
-    id: "massage",
-    image: "/massage2.jpg",
-    badge: "Détente & drainage",
-    title: "Massages",
-    description:
-  "• Massage lymphatique\n• Massage anti-cellulite\n• Massage relaxation & détente\n• Kobido (lifting visage)",
-    price: "90 DT",
-    duration: "60 min",
-  },
+  
   {
     id: "kinesiologie",
     image: "/kiné.jpg",
@@ -74,6 +65,28 @@ const soins: Soin[] = [
     price: "120 DT",
     duration: "60 min",
   },
+  {
+    id: "massage",
+    image: "/massage2.jpg",
+    badge: "Détente & drainage",
+    title: "Massages",
+    description:
+  "• Massage lymphatique\n• Massage anti-cellulite\n• Massage relaxation & détente\n• Kobido (lifting visage)",
+    price: "90 DT",
+    duration: "60 min",
+  },
+  {
+    id: "hijama",
+    image: "/hijama2.jpg",
+    badge: "Soin purifiant",
+    title: "Hijama",
+    description:
+      "• Séance curative + 10 min massage\n• Séance préventive + 10 min massage\n• Séance basique",
+    price: "60 DT",
+    duration: "45 min",
+  },
+  
+  
   {
     id: "infirmier",
     image: "/soins infirmiers.jpeg",
