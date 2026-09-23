@@ -12,12 +12,12 @@ export default function Home() {
             <span className="brand-tag script">Formation et Bien-être</span>
           </div>
           <nav className="nav-links">
-            <a href="#formations">Formations</a>
+            <a href="/formations">Formations</a>
             <a href="#soins">Soins</a>
             <a href="#format">A propos</a>
             <a href="#avis">Avis</a>
           </nav>
-          <a href="#" className="nav-cta">
+          <a href="/contact" className="nav-cta">
             Nous contacter
           </a>
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
               Développez vos compétences au service du bien-être et de l’accompagnement .
             Des formations professionnelles destinées aux femmes, autour du bien-être, de l’accompagnement, de l’hygiène de vie, de l’équilibre alimentaire, de la connaissance du corps et du développement personnel.
             </p>
-            <a href="#formations" className="btn-primary">
+            <a href="/formations" className="btn-primary">
               Découvrir les formations
             </a>
           </div>
@@ -202,21 +202,21 @@ export default function Home() {
             {[
               {
                 quote:
-                  "\"Une formation exigeante et humaine à la fois. J'ai lancé mon activité trois mois après avoir terminé le protocole.\"",
+                  '"La formation nutrition m’a aidé à mieux comprendre le lien entre alimentation, énergie et équilibre global. J’ai pu appliquer ces connaissances dans ma vie quotidienne et dans mon accompagnement."',
+                initial: "N",
+                name: "Nour, nutritionniste",
+              },
+              {
+                quote:
+                  '"J’ai découvert un cadre très clair et rassurant sur la naturopathie. Les contenus étaient riches, pratiques et vraiment orientés vers un accompagnement humain et professionnel."',
+                initial: "A",
+                name: "Amel, naturopathe",
+              },
+              {
+                quote:
+                  '"Cette formation m’a donné confiance pour avancer dans ma démarche professionnelle. Le programme est structuré, inspirant et très utile pour développer une vraie pratique de bien-être."',
                 initial: "S",
-                name: "Salma, Réflexologue",
-              },
-              {
-                quote:
-                  '"Le format en ligne m\'a permis de me former tout en gardant mon emploi. Le suivi était vraiment présent."',
-                initial: "I",
-                name: "Ines, Kinésiologue",
-              },
-              {
-                quote:
-                  '"Changement de Perspective a changé ma façon de voir mon métier et ma confiance en moi."',
-                initial: "R",
-                name: "Rym, Praticienne bien-être",
+                name: "Sonia, participante en formation",
               },
             ].map((t) => (
               <div className="testi-card reveal" key={t.name}>
@@ -255,9 +255,9 @@ export default function Home() {
             </div>
             <div>
               <h5>Informations</h5>
-              <a href="#">Mentions légales</a>
+              <a href="/mentions-legales">Mentions légales</a>
               <a href="/cgv">CGV</a>
-              <a href="#">Catalogue des formations</a>
+              <a href="/formations">Catalogue des formations</a>
             </div>
           </div>
           <div className="footer-bottom">
