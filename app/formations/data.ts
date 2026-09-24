@@ -158,7 +158,7 @@ const formationsData: Formation[] = [
           "Découvrir les plantes et les techniques naturelles de bien-être",
           "Réaliser un bilan d’hygiène de vie de manière globale et personnalisée",
           "Proposer des conseils de prévention et de bien-être dans le respect des limites professionnelles",
-          "Respecter les règles de non-diagnostic, non-prescription et non-substitution médicale",
+        
       ],
       format: [
           "Apports théoriques, études de cas et mises en pratique",
