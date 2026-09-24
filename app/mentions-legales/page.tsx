@@ -101,23 +101,25 @@ const legalSections = [
     content: (
       <>
         <p>
-          <strong>Site internet :</strong> www.essentielle-bienetre.com
+          <strong>Site internet :</strong> https://www.essentielle-bienetre.com/
         </p>
         <p>
           <strong>Hébergeur / infrastructure du site :</strong>
           <br />
-          [À compléter avec les coordonnées juridiques exactes de l’hébergeur
-          actuellement utilisé.]
-        </p>
-        <p>
-          <strong>Plateforme e-learning :</strong>
+          Vercel, Inc.
           <br />
-          [À compléter avec l’hébergeur définitif et le domaine définitif de la
-          plateforme.]
+          Hébergement du site principal et de la plateforme web.
         </p>
         <p>
-          Ces informations seront actualisées en fonction de l’infrastructure
-          technique effectivement utilisée.
+          <strong>Nom de domaine :</strong>
+          <br />
+          Namecheap
+          <br />
+          Domaine enregistré : www.essentielle-bienetre.com
+        </p>
+        <p>
+          Les informations techniques ci-dessus correspondent à l’infrastructure
+          effectivement utilisée pour le site et le domaine public du centre.
         </p>
       </>
     ),
