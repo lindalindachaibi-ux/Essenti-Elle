@@ -156,10 +156,7 @@ const formationsData: Formation[] = [
           "Analyser les facteurs de l’équilibre alimentaire et de l’environnement de vie",
           "Identifier les bases de la gestion du stress, du sommeil et de l’activité physique",
           "Découvrir les plantes et les techniques naturelles de bien-être",
-          "Réaliser un bilan d’hygiène de vie de manière globale et personnalisée",
-          "Proposer des conseils de prévention et de bien-être dans le respect des limites professionnelles",
-        
-      ],
+          "Réaliser un bilan d’hygiène de vie de manière globale et personnalisée", ],
       format: [
           "Apports théoriques, études de cas et mises en pratique",
           "Approche holistique de l’hygiène de vie et du bien-être",
