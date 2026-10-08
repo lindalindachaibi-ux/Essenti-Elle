@@ -418,15 +418,14 @@ section{padding:88px 0;}
 }
 
 /* ---------- footer ---------- */
-footer{background:var(--olive-deep); color:var(--sand); padding:64px 0 32px;}
+footer{background:var( --color-olive); color: #fffdf8;; padding:64px 0 32px;}
 .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:40px; margin-bottom:48px;}
 .footer-grid h5{font-family:'Montserrat', sans-serif; text-transform:uppercase; letter-spacing:0.1em; font-size:0.75rem; color:var(--gold); margin-bottom:16px; font-weight:600;}
-.footer-grid p, .footer-grid a{font-size:0.88rem; color:var(--sand); opacity:0.85; display:block; margin-bottom:8px;}
-.footer-brand .brand-name{color:var(--cream);}
-.footer-brand .brand-tag{color:var(--gold);}
+.footer-grid p, .footer-grid a{font-size:0.88rem; color: #fffdf8;; opacity:0.85; display:block; margin-bottom:8px;}
+.footer-brand .brand-name{color:#fffdf8;}
+.footer-brand .brand-tag{color:var(--color-gold);}
 .footer-bottom{border-top:1px solid rgba(246,241,228,0.18); padding-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:0.76rem; opacity:0.65;}
 @media (max-width:700px){ .footer-grid{grid-template-columns:1fr;} }
-
 /* ---------- CGV ---------- */
 .cgv-page{background:var(--cream); min-height:100vh;}
 .cgv-hero{position:relative; overflow:hidden; padding:104px 0 78px; background:var(--olive-deep); color:var(--cream);}
