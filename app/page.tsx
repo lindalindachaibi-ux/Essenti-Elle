@@ -268,7 +268,7 @@ export default function Home() {
         <div className="marquee-group" key={i} aria-hidden={i === 1}>
           {[
             { src: "/logos/Locationscoot.webp", alt: "LocaScoot Djerba", caption: "Location de scooters à Djerba" },
-             { src: "/logos/Essenti'elle_logo.jpg", alt: "Essenti'Elle Formation Bien-être France, Paris", caption: "Essenti'Elle Formation Bien-être  · France, Paris" },
+             { src: "/logos/Essenti'elle_logo.jpg", alt: "Essenti'Elle Formation Bien-être France", caption: "Essenti'Elle Formation Bien-être  · France" },
             { src: "/logos/Écusson_protection_civile,_Tunisie.svg.webp", alt: "Écusson protection civile", caption: "Protection civile Tunisie" },
             { src: "/logos/oasis-bien-etre.webp", alt: "Oasis du Bien-être", caption: "Oasis du Bien-être" },
           ].map((l) => (
