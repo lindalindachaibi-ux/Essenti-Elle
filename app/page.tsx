@@ -195,7 +195,7 @@ export default function Home() {
     <li>Techniques et protocoles professionnels</li>
     <li>Évaluation des acquis</li>
     <li>Attestation de fin de formation délivrée par Essenti’Elle</li>
-    <li>Certificat et kit offerts</li>
+    <li>Kit offerts</li>
   </ul>
 </div>
         <div className="format-col">

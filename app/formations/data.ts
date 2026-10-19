@@ -413,7 +413,7 @@ format: [
   label: "Toute les langues  : (français, anglais, arabe, allemand ou espagnol ....)",
   duration: "40 h par niveau",
   price: "350 DT / 40 h",
-  image: "/Apprendre-les-langues-autour-du-monde.webp",
+  image: "/Voyage-linguistique-autour-du-monde.png",
   description: "Formation en communication en français, anglais, arabe, allemand ou espagnol, organisée en trois niveaux progressifs de 40 heures chacun, adaptés aux besoins et aux acquis de chaque apprenant.",
   summary: "Choisissez une langue parmi le français, l’anglais, l’arabe, l’allemand et l’espagnol. La formation permet de développer progressivement le vocabulaire, la prononciation, la compréhension orale et écrite ainsi que l’expression orale, à travers des dialogues pratiques et des situations de communication quotidiennes et professionnelles. Chaque niveau comprend 40 heures de formation au tarif de 350 DT.",
   goals: [
