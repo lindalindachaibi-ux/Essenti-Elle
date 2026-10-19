@@ -120,7 +120,7 @@ const formationsData: Formation[] = [
   {
     slug: "nutrition",
     category: "Nutrition générale et professionnelle",
-      title: "Nutrition générale",
+      title: "Nutrition Détox",
       label: "Public : professionnelles du bien-être, auxiliaires de vie et personnes souhaitant développer des connaissances en alimentation",
       duration: "3 j ",
       price: "590 DT",
@@ -289,7 +289,7 @@ const formationsData: Formation[] = [
   {
    slug: "nutrition-&-sport",
 category: "Nutrition générale et professionnelle",
-title: " Perfectionnement en éducation nutritionnelle réservé aux professionnels concernés",
+title: " Nutrition & Sport ",
 label: "Public destiné à restreindre selon le niveau",
 duration: "",
 price: "690 DT",
