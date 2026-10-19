@@ -21,6 +21,7 @@ export default function Home() {
             Nous contacter
           </a>
         </div>
+        
       </header>
 
       {/* HERO */}
@@ -49,7 +50,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+{/* BANDE PLATEFORME EN LIGNE */}
+<section className="online-band">
+  <div className="wrap online-band-inner">
+    <p>Toutes nos formations sont en ligne via notre plateforme</p>
+    <a
+      href="https://plateforme.essentielle-bienetre.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="online-band-link"
+    >
+      Accéder à la plateforme
+    </a>
+  </div>
+</section>
       {/* FORMATION PHARE */}
       <section id="formations">
         <div className="wrap">
@@ -173,27 +187,28 @@ export default function Home() {
             <h2>Comment allez-vous vous former, selon votre disponibilité ?</h2>
           </div>
           <div className="format-grid">
-            <div className="format-col">
-              <div className="icon">⌂</div>
-              <h3>Présentiel</h3>
-              <ul>
-                <li>Cours théoriques, démonstrations et mises en situation</li>
-                <li>Techniques et protocoles professionnels
-Évaluation des acquis</li>
-                <li>Attestation de fin de formation délivrée par Essenti’Elle</li>
-              </ul>
-            </div>
-            <div className="format-col">
-              <div className="icon">◷</div>
-              <h3>En ligne</h3>
-              <ul>
-                <li>Formation accessible à votre rythme 24h/24</li>
-                <li>Quiz et évaluations tout au long du parcours
-Évaluation finale</li>
-                <li>Certificat de réussite Essenti’Elle délivré après validation du parcours</li>
-                « Démarches d’agrément et d’homologation en cours auprès des organismes compétents. »
-              </ul>
-            </div>
+           <div className="format-col">
+  <div className="icon">⌂</div>
+  <h3>Présentiel · 3 jours</h3>
+  <ul>
+    <li>Cours théoriques, démonstrations et mises en situation</li>
+    <li>Techniques et protocoles professionnels</li>
+    <li>Évaluation des acquis</li>
+    <li>Attestation de fin de formation délivrée par Essenti’Elle</li>
+    <li>Certificat et kit offerts</li>
+  </ul>
+</div>
+        <div className="format-col">
+  <div className="icon">◷</div>
+  <h3>En ligne</h3>
+  <ul>
+    <li>Formation accessible à votre rythme 24h/24</li>
+    <li>Quiz et évaluations tout au long du parcours</li>
+    <li>Évaluation finale</li>
+    <li>Certificat de réussite Essenti’Elle délivré après validation du parcours</li>
+    <li>« Démarches d’agrément et d’homologation en cours auprès des organismes compétents. »</li>
+  </ul>
+</div>
           </div>
         </div>
       </section>
@@ -238,7 +253,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* COLLABORATIONS */}
+<section className="collab">
+  <div className="wrap">
+    <div className="section-head reveal">
+      <span className="label">Ils nous font confiance</span>
+      <h2>Nos collaborations</h2>
+    </div>
+  </div>
 
+  <div className="marquee">
+    <div className="marquee-track">
+      {[...Array(2)].map((_, i) => (
+        <div className="marquee-group" key={i} aria-hidden={i === 1}>
+          {[
+            { src: "/logos/Locationscoot.webp", alt: "LocaScoot Djerba", caption: "Location de scooters à Djerba" },
+{ src: "/logos/Essenti'elle_logo.jpg", alt: "Essenti'Elle Santé France, Paris", caption: "Essenti'Elle Santé · France, Paris" },
+{ src: "/logos/Écusson_protection_civile,_Tunisie.svg.webp", alt: "Écusson protection civile", caption: "Protection civile Tunisie" },
+          ].map((l) => (
+            <div className="marquee-item" key={l.alt}>
+  {/* eslint-disable-next-line @next/next/no-img-element */}
+  <img src={l.src} alt={i === 0 ? l.alt : ""} />
+  {l.caption && <span className="marquee-caption">{l.caption}</span>}
+</div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       <footer>
         <div className="wrap">
           <div className="footer-grid">

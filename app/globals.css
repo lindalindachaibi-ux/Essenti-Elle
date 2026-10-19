@@ -17,6 +17,40 @@ body{
   line-height:1.6;
   overflow-x:hidden;
 }
+.online-band {
+  background: #6b6b3a; /* olive de ta charte, ajuste si besoin */
+  color: #f5efe3;
+  padding: 22px 0;
+}
+.online-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.online-band p {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+}
+.online-band-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 10px 22px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+.online-band-link:hover {
+  background: #d4af37;
+  color: #3a3a1e;
+}
 h1,h2,h3,.serif{font-family:'Cormorant Garamond', serif; font-weight:600; color:var(--olive-deep);}
 .script{font-family:'Tangerine', cursive; font-weight:700; color:var(--gold); line-height:1;}
 .label{font-family:'Montserrat', sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.14em; font-size:0.72rem; color:var(--olive);}
@@ -417,14 +451,13 @@ section{padding:88px 0;}
   .form-actions .btn-primary, .form-actions .btn-outline{width:100%; text-align:center;}
 }
 
-/* ---------- footer ---------- */
-footer{background:var( --color-olive); color: #fffdf8;; padding:64px 0 32px;}
+footer{background:var(--olive, #4A5233); color:#fffdf8; padding:64px 0 32px;}
 .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:40px; margin-bottom:48px;}
-.footer-grid h5{font-family:'Montserrat', sans-serif; text-transform:uppercase; letter-spacing:0.1em; font-size:0.75rem; color:var(--gold); margin-bottom:16px; font-weight:600;}
-.footer-grid p, .footer-grid a{font-size:0.88rem; color: #fffdf8;; opacity:0.85; display:block; margin-bottom:8px;}
+.footer-grid h5{font-family:'Montserrat', sans-serif; text-transform:uppercase; letter-spacing:0.1em; font-size:0.75rem; color:var(--gold, #d4af37); margin-bottom:16px; font-weight:600;}
+.footer-grid p, .footer-grid a{font-size:0.88rem; color:#fffdf8; opacity:0.85; display:block; margin-bottom:8px;}
 .footer-brand .brand-name{color:#fffdf8;}
-.footer-brand .brand-tag{color:var(--color-gold);}
-.footer-bottom{border-top:1px solid rgba(246,241,228,0.18); padding-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:0.76rem; opacity:0.65;}
+.footer-brand .brand-tag{color:var(--gold, #d4af37);}
+.footer-bottom{border-top:1px solid rgba(246,241,228,0.18); padding-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:0.76rem; color:#fffdf8; opacity:0.65;}
 @media (max-width:700px){ .footer-grid{grid-template-columns:1fr;} }
 /* ---------- CGV ---------- */
 .cgv-page{background:var(--cream); min-height:100vh;}
@@ -461,4 +494,36 @@ footer{background:var( --color-olive); color: #fffdf8;; padding:64px 0 32px;}
   .cgv-article{grid-template-columns:34px 1fr; gap:14px; padding:28px 0 32px;}
   .cgv-article h2{font-size:1.4rem;}
   .cgv-article p, .cgv-article li{font-size:0.84rem;}
+}
+
+/* ---------- collaborations ---------- */
+.collab{padding:80px 0; background:#fffdf8; overflow:hidden;}
+.collab .section-head{margin-bottom:40px; text-align:center;}
+
+.marquee{
+  overflow:hidden;
+  -webkit-mask-image:linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+  mask-image:linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+}
+.marquee-track{display:flex; width:max-content; animation:marquee-scroll 30s linear infinite;}
+.marquee:hover .marquee-track{animation-play-state:paused;}
+.marquee-group{display:flex; align-items:center; gap:64px; padding-right:64px;}
+.marquee-item{
+  flex:0 0 auto; width:180px;
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-start; gap:10px;
+}
+.marquee-item img{
+  height:90px; max-width:100%; object-fit:contain;
+  filter:none; opacity:1;
+  transition:transform .3s;
+}
+.marquee-item img:hover{transform:scale(1.05);}
+.marquee-caption{
+  font-family:'Montserrat', sans-serif;
+  font-size:0.75rem; letter-spacing:0.04em; line-height:1.4;
+  text-align:center; color:#4A5233;
+}
+@media (max-width:700px){
+  .marquee-item{width:130px;}
+  .marquee-item img{height:70px;}
 }
