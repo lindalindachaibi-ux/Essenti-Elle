@@ -405,32 +405,39 @@ format: [
       ],
       sessions: []
   },
-    {slug: "langues-etrangeres",
-category: "Langues étrangères",
-title: "Formation en langues étrangères – 3 niveaux",
-label: "Langue au choix : français, anglais ou arabe",
-duration: "40 h",
-price: "350 DT",
-image: "/Apprendre-les-langues-autour-du-monde.webp",
-description: "Formation en communication en français, anglais ou arabe, avec trois niveaux progressifs adaptés aux besoins de chaque apprenant.",
-summary: "Apprentissage d’une langue au choix parmi le français, l’anglais et l’arabe. La formation couvre le vocabulaire essentiel, la prononciation, la compréhension orale et écrite, l’expression orale, les dialogues pratiques et la communication dans des situations quotidiennes et professionnelles.",
-goals: [
-    "Choisir une langue : français, anglais ou arabe",
+ 
+{
+  slug: "langues-etrangeres",
+  category: "Langues étrangères",
+  title: "Formation en langues étrangères – 3 niveaux",
+  label: "Toute les langues  : (français, anglais, arabe, allemand ou espagnol ....)",
+  duration: "40 h par niveau",
+  price: "350 DT / 40 h",
+  image: "/Apprendre-les-langues-autour-du-monde.webp",
+  description: "Formation en communication en français, anglais, arabe, allemand ou espagnol, organisée en trois niveaux progressifs de 40 heures chacun, adaptés aux besoins et aux acquis de chaque apprenant.",
+  summary: "Choisissez une langue parmi le français, l’anglais, l’arabe, l’allemand et l’espagnol. La formation permet de développer progressivement le vocabulaire, la prononciation, la compréhension orale et écrite ainsi que l’expression orale, à travers des dialogues pratiques et des situations de communication quotidiennes et professionnelles. Chaque niveau comprend 40 heures de formation au tarif de 350 DT.",
+  goals: [
+    "Choisir une langue parmi le français, l’anglais, l’arabe, l’allemand et l’espagnol",
     "Acquérir les bases essentielles de la communication",
     "Développer le vocabulaire et améliorer la prononciation",
     "Améliorer la compréhension orale et écrite",
     "Communiquer avec plus d’aisance dans des situations quotidiennes et professionnelles",
     "Progresser à travers trois niveaux adaptés aux acquis de chaque apprenant",
-],
-format: [
-    "Niveau 1 : Initiation et bases de la communication",
-    "Niveau 2 : Développement du vocabulaire et de l’expression",
-    "Niveau 3 : Perfectionnement et autonomie en communication",
+    "Développer progressivement son autonomie en communication"
+  ],
+  format: [
+    "Niveau 1 : Initiation et bases de la communication – 40 h (350 DT)",
+    "Niveau 2 : Développement du vocabulaire et de l’expression – 40 h (350 DT)",
+    "Niveau 3 : Perfectionnement et autonomie en communication – 40 h (350 DT)",
+    "Durée totale du parcours : 120 h",
+    "Tarif total des trois niveaux : 1 050 DT",
+    "Langue au choix : français, anglais, arabe, allemand ou espagnol",
     "Exercices pratiques, dialogues et mises en situation",
-    "Langue au choix : français, anglais ou arabe",
-    "Certificat de formation",
-],
-sessions: []}
+    "Certificat de formation"
+  ],
+  sessions: []
+}
+
 ];
 
 export const formations: Formation[] = formationsData.map((formation) => ({
