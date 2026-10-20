@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: "Essenti'Elle — Formation et Bien-être",
   description:
     "Centre de formation professionnelle international pour femmes — réflexologie, kinésiologie, massages, ostéopathie, hijama, nutrition.",
+  icons: {
+    icon: "/logo-essentielle.jpg",
+    shortcut: "/logo-essentielle.jpg",
+    apple: "/logo-essentielle.jpg",
+  },
 };
 
 export default function RootLayout({
